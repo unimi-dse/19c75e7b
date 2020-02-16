@@ -11,3 +11,4 @@ the test1 dataset is made of 189 rows and 10 columns, regarding relevant charact
 Usage
 library(test1)
 
+
