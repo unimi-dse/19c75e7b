@@ -12,4 +12,19 @@
 # Usage
 ##### library(test1)
 
+# Data
+#### the function read_data() allows to have the dataset 'birthwt' from the package MASS
+> read_data()
+
+# Plot()
+#### the function plot() creates a barplot representing the variables "age", "smoke", "race" and "lwt"
+> plot()
+
+# Plot2()
+#### the function plot2() creates a bar chart rapresenting the mother'sweight in pounds at last menstrual period
+> plot2()
+
+# Regfunction
+#### the function Regfunction() runs two multiple linear regression model: the firts one is a "total" multiple linear regression with all the parameters; the second one is a multiple linear regression with the parameters that are tested significat from the fist regression
+> regfunction()
 
