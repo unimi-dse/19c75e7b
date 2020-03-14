@@ -4,6 +4,7 @@
 #' @return
 #' @export
 plot2 <- function(){
+ birthwt <- MASS::birthwt
  p <- ggplot2::qplot(x = lwt, data = birthwt, geom = "bar")
   return(p)
 }
