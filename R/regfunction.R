@@ -12,6 +12,7 @@
 #'
 #' @export
 regfunction <- function(){
+  birthwt <- MASS::birthwt
   #multiple linear regression
  reg_1<-glm(low~age + lwt + race + smoke + ptl + ht + ui + ftv, data = birthwt)
   summary(reg_1)
